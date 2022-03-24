@@ -33,7 +33,7 @@ int is_composite(int n)
     else
     {
       iscomposite = 0;
-      break;
+      continue;
     }
   }
   return iscomposite;
